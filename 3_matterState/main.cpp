@@ -15,7 +15,7 @@ int main()
 {
     int temperature;
 
-    cout << "Please enter a (integer) temperature: " << endl;
+    cout << "Please enter a (integer) temperature in Fahrenheit degrees: " << endl;
     cin >> temperature;
 
 /*

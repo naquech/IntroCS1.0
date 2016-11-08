@@ -20,7 +20,8 @@ int main()
     seed = time(0);             //Use of the time function to get a 'seed' value for srand
     srand (seed);
     number = rand() % 100 + 1;  //Limiting the range of the random number
-    cout << number << endl;
+
+    //cout << number << endl;     //comment this line to hide the number random number.
 
     do
     {

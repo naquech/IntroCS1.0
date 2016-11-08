@@ -26,10 +26,8 @@ int main()
 
     cout << "Lower bound: " << lower << endl;
     cout << "Upper bound: " << upper << endl;
-
-    for (int counter = lower; counter <= upper; counter++)
-        sum+= counter;
-        cout << "The sum is: " << sum <<endl;
+    sum = lower + upper;
+    cout << "The sum is: " << sum <<endl;
 
 
     return 0;

@@ -9,7 +9,7 @@ using namespace std;
 int main()
 {
     int userNumbers;
-    double number, small = 0, large = 0;
+    double number, small=0.0, large=0.0;
 
     cout << "How many numbers would you like to enter?: ";
     cin >> userNumbers;
@@ -19,11 +19,12 @@ int main()
             cout << "Enter number " << i << ": ";
             cin >> number;
 
-//Compare each number entered
 
+//Compare each number entered
         if (number >= large)
             large = number;
-        else if (number <= small)
+
+        else if (number >= small || number <=large)
             small = number;
     }
 

@@ -13,10 +13,18 @@ int main()
 
     int upperBound, lowerBound, number1, number2, number3, number4, number5;
 
-    cout << "Please enter lower bound: ";
-    cin >> lowerBound;
-    cout << "Please enter upper bound: ";
-    cin >> upperBound;
+    cout<<"Please enter lower bound: ";
+    cin>>lowerBound;
+    cout<<"Please enter upper bound: ";
+    cin>>upperBound;
+
+    while (lowerBound > upperBound){
+            cout << "Lower bound should be less than upper bound. \n";
+            cout << "Please enter lower bound: ";
+            cin >> lowerBound;
+            cout << "Please enter upper bound: ";
+            cin >> upperBound;
+    }
 
     seed = time(0);     //Used the time function to get a seed value for srand.
     srand(seed);
@@ -27,13 +35,11 @@ int main()
     number4 = rand() % upperBound + lowerBound;
     number5 = rand() % upperBound + lowerBound;
 
-
     cout<<" "<<number1;
     cout<<" "<<number2;
     cout<<" "<<number3;
     cout<<" "<<number4;
     cout<<" "<<number5;
-
 
     return 0;
 }

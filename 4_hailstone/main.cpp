@@ -53,7 +53,7 @@ int hailstone (int value)
         iterationTimes ++;
     }
 
-       // cout << "Number of times it took the sequence to reach 1: " << iterationTimes;
+        cout << "Number of times it took the sequence to reach 1: " << iterationTimes;
 
     return iterationTimes;
 
