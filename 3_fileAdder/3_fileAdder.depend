@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1434591660 source:c:\users\natalia\documents\osu\mycode\cs_161\3_fileadder\main.cpp
+	<iostream>
+	<fstream>
+

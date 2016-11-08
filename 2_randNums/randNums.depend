@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1434413636 source:c:\users\natalia\documents\osu\mycode\cs_161\randnums\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+
+1434413807 source:c:\users\natalia\documents\osu\mycode\cs_161\2_randnums\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+

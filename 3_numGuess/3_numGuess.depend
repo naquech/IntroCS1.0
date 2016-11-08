@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1434570580 source:c:\users\natalia\documents\osu\mycode\cs_161\3_numguess\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+
