@@ -1,4 +1,11 @@
-//Point class function implementation file
+/*Point class function implementation file
+1. Write a class called Point that contains two doubles that represent its x- and y-coordinates. It should have get and
+set methods for both parameters. It should have a constructor that takes two double parameters and passes those values
+to the set methods to initialize its fields. It should have a default constructor that initializes both coordinates to
+0. It should also contain a method called distanceTo that takes as a parameter a constant reference to another Point and
+returns the distance from the Point that was passed as a parameter to the Point that we called the method of. You will
+need to use sqrt().*/
+
 #include "Point.hpp"
 #include <cmath>
 
@@ -29,16 +36,8 @@ double Point::getYCoord() const {
 }
 
 double Point::distanceTo(const Point &p){
-    /*double distance, x1, x2, y1, y2;
-    x1 = getXCoord();
-    x2 = p.getXCoord();
-    y1 = getYCoord();
-    y2 = p.getYCoord(); */
 
     double tempCoordX, tempCoordY, distance;
-
-//    tempCoordX = p.getXCoord();
-//    tempCoordY = p.getYCoord();
 
     distance = sqrt(pow((coordX - p.getXCoord()),2) + pow((coordY - p.getYCoord()),2));
 
