@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1502150394 source:c:\users\natalia\documents\github\introcs1\car\main.cpp
+	<iostream>
+	"Car.hpp"
+	<string>
+
+1502148817 c:\users\natalia\documents\github\introcs1\car\car.hpp
+

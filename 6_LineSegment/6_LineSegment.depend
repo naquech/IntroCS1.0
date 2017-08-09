@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1502307257 source:c:\users\natalia\documents\github\introcs1\6_linesegment\main.cpp
+	<iostream>
+	<cmath>
+	"Point.cpp"
+	"LineSegment.hpp"
+
+1502307812 c:\users\natalia\documents\github\introcs1\6_linesegment\point.hpp
+
+1502306229 c:\users\natalia\documents\github\introcs1\6_linesegment\linesegment.hpp
+	"Point.hpp"
+
+1502307382 c:\users\natalia\documents\github\introcs1\6_linesegment\point.cpp
+	"Point.hpp"
+	<cmath>
+
+1502307382 source:c:\users\natalia\documents\github\introcs1\6_linesegment\point.cpp
+	"Point.hpp"
+	<cmath>
+

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1502157446 source:c:\users\natalia\documents\github\introcs1\6_supplies\main.cpp
+	<iostream>
+	"Supplies.hpp"
+
+1502157300 c:\users\natalia\documents\github\introcs1\6_supplies\supplies.hpp
+
